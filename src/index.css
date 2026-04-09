@@ -35,3 +35,24 @@ body {
   75% { transform: translateY(80vh) rotate(270deg) translateX(20px); }
   100% { transform: translateY(115vh) rotate(360deg) translateX(0); }
 }
+
+/* ... keep your existing CSS ... */
+
+.basket {
+  width: 60px;
+  height: 40px;
+  background: #ff4d6d;
+  border-radius: 0 0 30px 30px;
+  position: relative;
+}
+
+.basket::after {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 5px;
+  right: 5px;
+  height: 20px;
+  border: 4px solid #ff4d6d;
+  border-radius: 50% 50% 0 0;
+}
