@@ -7,7 +7,6 @@
 body {
   font-family: var(--font-main);
   background-color: #fff0f3;
-  /* Subtle cherry-colored grid pattern */
   background-image: radial-gradient(circle at 2px 2px, rgba(255, 77, 109, 0.05) 1px, transparent 0);
   background-size: 30px 30px;
   color: #4a0e1e;
@@ -21,7 +20,6 @@ body {
   box-shadow: 0 20px 40px rgba(255, 77, 109, 0.15);
 }
 
-/* Floating Cherries Animation */
 .cherry-float {
   position: fixed;
   pointer-events: none;
