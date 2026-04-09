@@ -168,7 +168,7 @@ const ArcadeMenu = () => {
   const [activeGame, setActiveGame] = useState(null);
   const games = [
     { id: 'maaf', title: 'Boss Level', icon: '💝', comp: <ForgivenessGame /> },
-    { id: 'quiz', title: 'Love Quiz', icon: '📝', comp: <CuteQuiz /> },
+    { id: 'quiz', title: 'Love Quiz', icon: '📝', comp: <CuteQuiz/> },
     { id: 'catcher', title: 'Cherry Catcher', icon: '🧺', comp: <CherryCatcher /> }
   ];
 
