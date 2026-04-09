@@ -43,7 +43,7 @@ const CuteQuiz = () => {
     { q: "Kalau saya masak untuk awak (walaupun tak sedap), awak makan tak?", a: ["Makan je la..", "Makan dengan gembira!", "Tapau bawa balik"] },
     { q: "Antara Ceri dan Sayang, mana lagi manis?", a: ["Ceri 🍒", "Sayang ❤️", "Dua-dua!"] },
     { q: "Berapa banyak saya sayang awak hari ni?", a: ["Sikit", "Banyak gila!", "Infinite + 1"] },
-    { q: "Boleh tak saya nak kawan dengan awak sampai tua?", a: ["Boleh sangat!", "Mestilah!", "Confirm!"] }
+    { q: "Boleh tak saya nak ada dengan awak sampai tua?", a: ["Boleh sangat!", "Mestilah!", "Confirm!"] }
   ];
 
   const handleAnswer = () => {
